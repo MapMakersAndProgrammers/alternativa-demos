@@ -1,0 +1,54 @@
+8
+
+dir
+46043
+http://svndev.alternativaplatform.com/projects/web/alternativaplatform/Site/trunk/swf/demos/mobilephone
+http://svndev.alternativaplatform.com
+
+
+
+2010-10-10T14:30:05.130818Z
+43881
+amelin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d9e2387a-1f3e-40e2-b57f-9df5970a2fa5
+
+mobilephone.swf
+file
+
+
+
+
+2010-10-29T01:40:46.000000Z
+4f83d116f1f82fdf05cd2e1ee3e42617
+2010-10-10T14:30:05.130818Z
+43881
+amelin
+has-props
+
+mobilephonefp10.swf
+file
+
+
+
+
+2010-10-29T01:40:46.000000Z
+93a3b9f911be580b00a05269f6cfcd8d
+2010-10-10T14:30:05.130818Z
+43881
+amelin
+has-props
+
