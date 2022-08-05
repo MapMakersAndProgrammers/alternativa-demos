@@ -1,40 +1,0 @@
-8
-
-dir
-46043
-http://svndev.alternativaplatform.com/projects/web/alternativaplatform/Site/trunk/swf/demos/flat/textures
-http://svndev.alternativaplatform.com
-
-
-
-2010-10-10T14:30:05.130818Z
-43881
-amelin
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-d9e2387a-1f3e-40e2-b57f-9df5970a2fa5
-
-floor
-dir
-
-walls
-dir
-
-ceil
-dir
-
-bath
-dir
-
