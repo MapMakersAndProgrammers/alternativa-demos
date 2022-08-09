@@ -1,0 +1,77 @@
+<collada xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>raven</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.2.5;  Revision: 59515M;  Platform: x64;  Configuration: Release Max2010</authoring_tool>
+      <source_data>file:///C:/raven/Alternativa/AG/3D/New_levels/BSP/crash_molehill/Crash_mh22_export.max</source_data>
+    </contributor>
+    <created>2011-06-03T03:00:05</created>
+    <modified>2011-06-03T03:00:05</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0.1019608 0.172549 0.2627451</color>
+        </ambient>
+      </technique_common>
+    </light>
+    <light id="Direct01-light" name="Direct01">
+      <technique_common>
+        <directional>
+          <color>1 1 1</color>
+        </directional>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <aspect_ratio>1</aspect_ratio>
+            <atmosphere_color_amount>1</atmosphere_color_amount>
+            <atmosphere_on>0</atmosphere_on>
+            <atmosphere_opacity>1</atmosphere_opacity>
+            <attenuation_far_end>200</attenuation_far_end>
+            <attenuation_far_start>80</attenuation_far_start>
+            <attenuation_near_end>40</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>40</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>45</falloff>
+            <hotspot_beam>43</hotspot_beam>
+            <multiplier>1</multiplier>
+            <overshoot>0</overshoot>
+            <shadow_density>1</shadow_density>
+            <shadow_map>0</shadow_map>
+            <target_distance>291.5847</target_distance>
+            <use_far_attenuation>0</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-Direct01" name="Direct01" layer="lights">
+        <matrix>0.9937425 -0.06311782 0.09215227 68.24829 0.1116956 0.561552 -0.8198681 -273.3403 5.82077e-11 0.8250307 0.5650881 164.771 0 0 0 1</matrix>
+        <instance_light url="#Direct01-light"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+  <extra>
+    <technique profile="Alternativa3D">
+      <library xmlns="http://alternativaplatform.com/a3d/Library">
+        <version>2.4</version>
+      </library>
+    </technique>
+  </extra>
+</collada>
