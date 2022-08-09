@@ -1,7 +1,7 @@
 # Alternativa3D demos
 This repository is a collection of demos built using the [Alternativa3D engine](https://github.com/AlternativaPlatform/Alternativa3D).
 ## Note 
-- Some demos maybe missing resources (see [status](#status))
+- Some demos maybe missing resources and/or may not work (see [status](#status))
 - This repo is incomplete and if anyone has any official demos I would appreciate you oppening an issue or pull request about said demo.
 
 ## Status
