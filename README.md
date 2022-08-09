@@ -20,7 +20,7 @@ This repository is a collection of demos built using the [Alternativa3D engine](
 |mipmapping     |Working    |
 |ParticlesDemo   |Working    |
 |SSAODemo       |Working    |
-|maxRacer       |Partial    |Only the low preset works, medium and high have basically no resources
+|maxracer       |Partial    |Only the low preset works, medium and high have basically no resources
 |arena          |Not working|Doesn't load fully, missing some resources
 |crash          |Not working|Doesn't load fully, missing some resources
 |gui            |Working    |
