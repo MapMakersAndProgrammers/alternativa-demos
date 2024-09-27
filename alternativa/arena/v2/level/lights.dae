@@ -1,0 +1,1670 @@
+<collada xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>semenov</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.2.5;  Revision: 59515M;  Platform: x64;  Configuration: Release Max2010</authoring_tool>
+      <source_data>file:///C:/Users/semenov/Desktop/Arena/Arena_shadowlight.max</source_data>
+    </contributor>
+    <created>2011-06-15T20:04:42</created>
+    <modified>2011-06-15T20:04:42</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="ColorEffectR255G229B0">
+      <profile_common>
+        <technique sid="common">
+          <phong>
+            <ambient>
+              <color>1 0.8980392 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>1 0.8980392 0 1</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent>
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_common>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="ColorEffectR255G229B0-material" name="ColorEffectR255G229B0-material">
+      <instance_effect url="#ColorEffectR255G229B0"/>
+    </material>
+  </library_materials>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0.03921569 0.03529412 0.04705883</color>
+        </ambient>
+      </technique_common>
+    </light>
+    <light id="Omni53-light" name="Omni53">
+      <technique_common>
+        <point>
+          <color>0.9294118 0.482353 0</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>950</attenuation_far_end>
+            <attenuation_far_start>750</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>40</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>1</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Fspot10-light" name="Fspot10">
+      <technique_common>
+        <point>
+          <color>1 0.909804 0.8274511</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>1000</attenuation_far_end>
+            <attenuation_far_start>100</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>194.8</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>3</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Fspot45-light" name="Fspot45">
+      <technique_common>
+        <point>
+          <color>0.4470589 0.9137256 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>1000</attenuation_far_end>
+            <attenuation_far_start>100</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>194.8</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>3</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Fspot77-light" name="Fspot77">
+      <technique_common>
+        <point>
+          <color>0.9019608 0 0</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>1200</attenuation_far_end>
+            <attenuation_far_start>100</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>194.8</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>3</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Omni57-light" name="Omni57">
+      <technique_common>
+        <point>
+          <color>0.9294118 0.482353 0</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>950</attenuation_far_end>
+            <attenuation_far_start>750</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>40</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>1</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Omni02-light" name="Omni02">
+      <technique_common>
+        <point>
+          <color>1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>4200</attenuation_far_end>
+            <attenuation_far_start>4000</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>40</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>1</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Omni67-light" name="Omni67">
+      <technique_common>
+        <point>
+          <color>1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>4200</attenuation_far_end>
+            <attenuation_far_start>4000</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>40</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>1</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Omni68-light" name="Omni68">
+      <technique_common>
+        <point>
+          <color>1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>4200</attenuation_far_end>
+            <attenuation_far_start>4000</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>40</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>1</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Omni69-light" name="Omni69">
+      <technique_common>
+        <point>
+          <color>1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>4200</attenuation_far_end>
+            <attenuation_far_start>4000</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>40</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>1</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Omni70-light" name="Omni70">
+      <technique_common>
+        <point>
+          <color>1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>4200</attenuation_far_end>
+            <attenuation_far_start>4000</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>40</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>1</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Omni71-light" name="Omni71">
+      <technique_common>
+        <point>
+          <color>1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>3200</attenuation_far_end>
+            <attenuation_far_start>3000</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>40</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>1</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Omni72-light" name="Omni72">
+      <technique_common>
+        <point>
+          <color>1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>3200</attenuation_far_end>
+            <attenuation_far_start>3000</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>40</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>1</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Omni73-light" name="Omni73">
+      <technique_common>
+        <point>
+          <color>1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>3800</attenuation_far_end>
+            <attenuation_far_start>3600</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>40</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>1</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Spot01-light" name="Spot01">
+      <technique_common>
+        <spot>
+          <color>0.9960785 0.8980393 0.6901961</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </spot>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <aspect_ratio>1</aspect_ratio>
+            <atmosphere_color_amount>1</atmosphere_color_amount>
+            <atmosphere_on>0</atmosphere_on>
+            <atmosphere_opacity>1</atmosphere_opacity>
+            <attenuation_far_end>4038.144</attenuation_far_end>
+            <attenuation_far_start>2000</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>40</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>112.2</falloff>
+            <hotspot_beam>43.2</hotspot_beam>
+            <multiplier>2</multiplier>
+            <overshoot>0</overshoot>
+            <shadow_density>1</shadow_density>
+            <shadow_map>0</shadow_map>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Spot02-light" name="Spot02">
+      <technique_common>
+        <spot>
+          <color>1 0.9019608 0.7960785</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </spot>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <aspect_ratio>1</aspect_ratio>
+            <atmosphere_color_amount>1</atmosphere_color_amount>
+            <atmosphere_on>0</atmosphere_on>
+            <atmosphere_opacity>1</atmosphere_opacity>
+            <attenuation_far_end>7500</attenuation_far_end>
+            <attenuation_far_start>5500</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>40</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>82.80001</falloff>
+            <hotspot_beam>43.2</hotspot_beam>
+            <multiplier>2.5</multiplier>
+            <overshoot>0</overshoot>
+            <shadow_density>1</shadow_density>
+            <shadow_map>0</shadow_map>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Spot03-light" name="Spot03">
+      <technique_common>
+        <spot>
+          <color>0.9960785 0.8980393 0.6901961</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </spot>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <aspect_ratio>1</aspect_ratio>
+            <atmosphere_color_amount>1</atmosphere_color_amount>
+            <atmosphere_on>0</atmosphere_on>
+            <atmosphere_opacity>1</atmosphere_opacity>
+            <attenuation_far_end>7500</attenuation_far_end>
+            <attenuation_far_start>5500</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>40</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>100.1</falloff>
+            <hotspot_beam>43.2</hotspot_beam>
+            <multiplier>2</multiplier>
+            <overshoot>0</overshoot>
+            <shadow_density>1</shadow_density>
+            <shadow_map>0</shadow_map>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Spot04-light" name="Spot04">
+      <technique_common>
+        <spot>
+          <color>1 0.8078432 0.6039216</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </spot>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <aspect_ratio>1</aspect_ratio>
+            <atmosphere_color_amount>1</atmosphere_color_amount>
+            <atmosphere_on>0</atmosphere_on>
+            <atmosphere_opacity>1</atmosphere_opacity>
+            <attenuation_far_end>7500</attenuation_far_end>
+            <attenuation_far_start>5500</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>40</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>82.80001</falloff>
+            <hotspot_beam>43.2</hotspot_beam>
+            <multiplier>1</multiplier>
+            <overshoot>0</overshoot>
+            <shadow_density>1</shadow_density>
+            <shadow_map>0</shadow_map>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Spot05-light" name="Spot05">
+      <technique_common>
+        <spot>
+          <color>1 0.9019608 0.7960785</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </spot>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <aspect_ratio>1</aspect_ratio>
+            <atmosphere_color_amount>1</atmosphere_color_amount>
+            <atmosphere_on>0</atmosphere_on>
+            <atmosphere_opacity>1</atmosphere_opacity>
+            <attenuation_far_end>7500</attenuation_far_end>
+            <attenuation_far_start>5500</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>40</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>82.80001</falloff>
+            <hotspot_beam>43.2</hotspot_beam>
+            <multiplier>2.5</multiplier>
+            <overshoot>0</overshoot>
+            <shadow_density>1</shadow_density>
+            <shadow_map>0</shadow_map>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Spot06-light" name="Spot06">
+      <technique_common>
+        <spot>
+          <color>1 0.8078432 0.6039216</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </spot>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <aspect_ratio>1</aspect_ratio>
+            <atmosphere_color_amount>1</atmosphere_color_amount>
+            <atmosphere_on>0</atmosphere_on>
+            <atmosphere_opacity>1</atmosphere_opacity>
+            <attenuation_far_end>7500</attenuation_far_end>
+            <attenuation_far_start>5500</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>40</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>82.80001</falloff>
+            <hotspot_beam>43.2</hotspot_beam>
+            <multiplier>2</multiplier>
+            <overshoot>0</overshoot>
+            <shadow_density>1</shadow_density>
+            <shadow_map>0</shadow_map>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Spot07-light" name="Spot07">
+      <technique_common>
+        <spot>
+          <color>1 0.8078432 0.6039216</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </spot>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <aspect_ratio>1</aspect_ratio>
+            <atmosphere_color_amount>1</atmosphere_color_amount>
+            <atmosphere_on>0</atmosphere_on>
+            <atmosphere_opacity>1</atmosphere_opacity>
+            <attenuation_far_end>5370.731</attenuation_far_end>
+            <attenuation_far_start>2820</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>40</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>82.80001</falloff>
+            <hotspot_beam>43.2</hotspot_beam>
+            <multiplier>2</multiplier>
+            <overshoot>0</overshoot>
+            <shadow_density>1</shadow_density>
+            <shadow_map>0</shadow_map>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Spot08-light" name="Spot08">
+      <technique_common>
+        <spot>
+          <color>1 0.8078432 0.6039216</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </spot>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <aspect_ratio>1</aspect_ratio>
+            <atmosphere_color_amount>1</atmosphere_color_amount>
+            <atmosphere_on>0</atmosphere_on>
+            <atmosphere_opacity>1</atmosphere_opacity>
+            <attenuation_far_end>7500</attenuation_far_end>
+            <attenuation_far_start>5500</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>40</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>82.80001</falloff>
+            <hotspot_beam>43.2</hotspot_beam>
+            <multiplier>2</multiplier>
+            <overshoot>0</overshoot>
+            <shadow_density>1</shadow_density>
+            <shadow_map>0</shadow_map>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Spot09-light" name="Spot09">
+      <technique_common>
+        <spot>
+          <color>1 0.909804 0.8156863</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </spot>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <aspect_ratio>1</aspect_ratio>
+            <atmosphere_color_amount>1</atmosphere_color_amount>
+            <atmosphere_on>0</atmosphere_on>
+            <atmosphere_opacity>1</atmosphere_opacity>
+            <attenuation_far_end>8500</attenuation_far_end>
+            <attenuation_far_start>6500</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>40</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>82.80001</falloff>
+            <hotspot_beam>43.2</hotspot_beam>
+            <multiplier>2.5</multiplier>
+            <overshoot>0</overshoot>
+            <shadow_density>1</shadow_density>
+            <shadow_map>0</shadow_map>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Spot10-light" name="Spot10">
+      <technique_common>
+        <spot>
+          <color>0.9921569 0.8509805 0.6980392</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </spot>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <aspect_ratio>1</aspect_ratio>
+            <atmosphere_color_amount>1</atmosphere_color_amount>
+            <atmosphere_on>0</atmosphere_on>
+            <atmosphere_opacity>1</atmosphere_opacity>
+            <attenuation_far_end>7500</attenuation_far_end>
+            <attenuation_far_start>5500</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>40</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>82.80001</falloff>
+            <hotspot_beam>43.2</hotspot_beam>
+            <multiplier>1</multiplier>
+            <overshoot>0</overshoot>
+            <shadow_density>1</shadow_density>
+            <shadow_map>0</shadow_map>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Omni01-light" name="Omni01">
+      <technique_common>
+        <point>
+          <color>0.9294118 0.482353 0</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>400</attenuation_far_end>
+            <attenuation_far_start>350</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>40</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>1</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Fspot07-light" name="Fspot07">
+      <technique_common>
+        <point>
+          <color>0.4470589 0.9137256 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>1000</attenuation_far_end>
+            <attenuation_far_start>100</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>194.8</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>3</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Fspot01-light" name="Fspot01">
+      <technique_common>
+        <point>
+          <color>1 0.909804 0.8274511</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>1000</attenuation_far_end>
+            <attenuation_far_start>100</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>194.8</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>3</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Fspot02-light" name="Fspot02">
+      <technique_common>
+        <point>
+          <color>0.4470589 0.9137256 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>1000</attenuation_far_end>
+            <attenuation_far_start>100</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>194.8</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>3</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Fspot19-light" name="Fspot19">
+      <technique_common>
+        <point>
+          <color>0.9019608 0 0</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>1200</attenuation_far_end>
+            <attenuation_far_start>100</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>194.8</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>3</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Spot11-light" name="Spot11">
+      <technique_common>
+        <spot>
+          <color>1 0.8078432 0.6039216</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </spot>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <aspect_ratio>1</aspect_ratio>
+            <atmosphere_color_amount>1</atmosphere_color_amount>
+            <atmosphere_on>0</atmosphere_on>
+            <atmosphere_opacity>1</atmosphere_opacity>
+            <attenuation_far_end>4500</attenuation_far_end>
+            <attenuation_far_start>3500</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>40</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>82.80001</falloff>
+            <hotspot_beam>43.2</hotspot_beam>
+            <multiplier>1</multiplier>
+            <overshoot>0</overshoot>
+            <shadow_density>1</shadow_density>
+            <shadow_map>0</shadow_map>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Spot13-light" name="Spot13">
+      <technique_common>
+        <spot>
+          <color>1 0.8078432 0.6039216</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </spot>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <aspect_ratio>1</aspect_ratio>
+            <atmosphere_color_amount>1</atmosphere_color_amount>
+            <atmosphere_on>0</atmosphere_on>
+            <atmosphere_opacity>1</atmosphere_opacity>
+            <attenuation_far_end>3500</attenuation_far_end>
+            <attenuation_far_start>2500</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>40</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>82.80001</falloff>
+            <hotspot_beam>43.2</hotspot_beam>
+            <multiplier>1</multiplier>
+            <overshoot>0</overshoot>
+            <shadow_density>1</shadow_density>
+            <shadow_map>0</shadow_map>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Spot15-light" name="Spot15">
+      <technique_common>
+        <spot>
+          <color>1 0.8078432 0.6039216</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </spot>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <aspect_ratio>1</aspect_ratio>
+            <atmosphere_color_amount>1</atmosphere_color_amount>
+            <atmosphere_on>0</atmosphere_on>
+            <atmosphere_opacity>1</atmosphere_opacity>
+            <attenuation_far_end>5500</attenuation_far_end>
+            <attenuation_far_start>4500</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>40</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>82.80001</falloff>
+            <hotspot_beam>43.2</hotspot_beam>
+            <multiplier>1</multiplier>
+            <overshoot>0</overshoot>
+            <shadow_density>1</shadow_density>
+            <shadow_map>0</shadow_map>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Spot16-light" name="Spot16">
+      <technique_common>
+        <spot>
+          <color>1 0.8078432 0.6039216</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </spot>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <aspect_ratio>1</aspect_ratio>
+            <atmosphere_color_amount>1</atmosphere_color_amount>
+            <atmosphere_on>0</atmosphere_on>
+            <atmosphere_opacity>1</atmosphere_opacity>
+            <attenuation_far_end>5500</attenuation_far_end>
+            <attenuation_far_start>4500</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>40</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>82.80001</falloff>
+            <hotspot_beam>43.2</hotspot_beam>
+            <multiplier>1</multiplier>
+            <overshoot>0</overshoot>
+            <shadow_density>1</shadow_density>
+            <shadow_map>0</shadow_map>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Omni01_1-light" name="Omni01">
+      <technique_common>
+        <point>
+          <color>0.03921569 0.8745099 0</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>600</attenuation_far_end>
+            <attenuation_far_start>500</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>40</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>1</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Omni66-light" name="Omni66">
+      <technique_common>
+        <point>
+          <color>0.03921569 0.8745099 0</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>600</attenuation_far_end>
+            <attenuation_far_start>500</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>40</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>1</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Omni74-light" name="Omni74">
+      <technique_common>
+        <point>
+          <color>1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>3800</attenuation_far_end>
+            <attenuation_far_start>3600</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>40</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>1</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+    <light id="Omni75_s-light" name="Omni75_s">
+      <technique_common>
+        <point>
+          <color>1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <light>
+            <atmosphere_on>1</atmosphere_on>
+            <atmosphere_opacity>0</atmosphere_opacity>
+            <attenuation_far_end>4200</attenuation_far_end>
+            <attenuation_far_start>4000</attenuation_far_start>
+            <attenuation_near_end>0</attenuation_near_end>
+            <attenuation_near_start>0</attenuation_near_start>
+            <contrast>0</contrast>
+            <decay_falloff>1</decay_falloff>
+            <decay_type>0</decay_type>
+            <diffuse_soften>0</diffuse_soften>
+            <falloff>40</falloff>
+            <hotspot_beam>0</hotspot_beam>
+            <multiplier>1</multiplier>
+            <shadow_color>1</shadow_color>
+            <use_far_attenuation>1</use_far_attenuation>
+            <use_near_attenuation>0</use_near_attenuation>
+          </light>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-Omni53" name="Omni53" layer="Shadows">
+        <translate>3768.568 -4372.603 190.3782</translate>
+        <instance_light url="#Omni53-light"/>
+      </node>
+      <node id="node-Fspot10" name="Fspot10" layer="Shadows">
+        <translate>6567.583 1449.4 600.1475</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot10-light"/>
+      </node>
+      <node id="node-Fspot45" name="Fspot45" layer="Shadows">
+        <translate>1414.908 10874.21 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot45-light"/>
+      </node>
+      <node id="node-Fspot46" name="Fspot46" layer="Shadows">
+        <translate>3317.309 10874.21 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot45-light"/>
+      </node>
+      <node id="node-Fspot47" name="Fspot47" layer="Shadows">
+        <translate>5216.307 10874.21 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot45-light"/>
+      </node>
+      <node id="node-Fspot48" name="Fspot48" layer="Shadows">
+        <translate>-5234.867 10874.21 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot45-light"/>
+      </node>
+      <node id="node-Fspot49" name="Fspot49" layer="Shadows">
+        <translate>-7134.727 10874.21 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot45-light"/>
+      </node>
+      <node id="node-Fspot50" name="Fspot50" layer="Shadows">
+        <translate>-9166.592 10361.67 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot45-light"/>
+      </node>
+      <node id="node-Fspot51" name="Fspot51" layer="Shadows">
+        <translate>-9166.592 8462.626 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot45-light"/>
+      </node>
+      <node id="node-Fspot52" name="Fspot52" layer="Shadows">
+        <translate>-9166.592 6563.902 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot45-light"/>
+      </node>
+      <node id="node-Fspot53" name="Fspot53" layer="Shadows">
+        <translate>-9166.592 -85.8915 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot45-light"/>
+      </node>
+      <node id="node-Fspot54" name="Fspot54" layer="Shadows">
+        <translate>-9166.592 -1987.907 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot45-light"/>
+      </node>
+      <node id="node-Fspot74" name="Fspot74" layer="Shadows">
+        <translate>7068.312 10113.83 600.7292</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot10-light"/>
+      </node>
+      <node id="node-Fspot75" name="Fspot75" layer="Shadows">
+        <translate>7068.312 7309.642 600.7292</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot10-light"/>
+      </node>
+      <node id="node-Fspot76" name="Fspot76" layer="Shadows">
+        <translate>7068.312 4580.086 600.7292</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot10-light"/>
+      </node>
+      <node id="node-Fspot77" name="Fspot77" layer="Shadows">
+        <translate>4664.136 8970.037 746.9526</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot77-light"/>
+      </node>
+      <node id="node-Omni54" name="Omni54" layer="Shadows">
+        <translate>-9091.021 -3994.489 143.8782</translate>
+        <instance_light url="#Omni53-light"/>
+      </node>
+      <node id="node-Omni55" name="Omni55" layer="Shadows">
+        <translate>-6415.345 -3994.489 143.8782</translate>
+        <instance_light url="#Omni53-light"/>
+      </node>
+      <node id="node-Omni56" name="Omni56" layer="Shadows">
+        <translate>6978.005 10765.76 150.4535</translate>
+        <instance_light url="#Omni53-light"/>
+      </node>
+      <node id="node-Omni57" name="Omni57" layer="Shadows">
+        <translate>-3835.031 1928.441 584.1251</translate>
+        <instance_light url="#Omni57-light"/>
+      </node>
+      <node id="node-Fspot87" name="Fspot87" layer="Shadows">
+        <translate>-8197.487 -3755.727 -265.7876</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot77-light"/>
+      </node>
+      <node id="node-Omni58" name="Omni58" layer="Shadows">
+        <translate>-4261.279 -3994.489 143.8782</translate>
+        <instance_light url="#Omni53-light"/>
+      </node>
+      <node id="node-Omni02" name="Omni02" layer="Shadows">
+        <translate>1464.352 -2905.39 1654.735</translate>
+        <instance_light url="#Omni02-light"/>
+      </node>
+      <node id="node-Omni67" name="Omni67" layer="Shadows">
+        <translate>-4785.7 -2905.39 1654.735</translate>
+        <instance_light url="#Omni67-light"/>
+      </node>
+      <node id="node-Omni68" name="Omni68" layer="Shadows">
+        <translate>-7797.682 6390.799 1654.735</translate>
+        <instance_light url="#Omni68-light"/>
+      </node>
+      <node id="node-Omni69" name="Omni69" layer="Shadows">
+        <translate>1088.298 9402.371 1654.735</translate>
+        <instance_light url="#Omni69-light"/>
+      </node>
+      <node id="node-Omni70" name="Omni70" layer="Shadows">
+        <translate>5734.411 5579.212 1654.735</translate>
+        <instance_light url="#Omni70-light"/>
+      </node>
+      <node id="node-Omni71" name="Omni71" layer="Shadows">
+        <translate>-7801.703 1211.164 1654.735</translate>
+        <instance_light url="#Omni71-light"/>
+      </node>
+      <node id="node-Omni72" name="Omni72" layer="Shadows">
+        <translate>-3760.12 9402.371 1654.735</translate>
+        <instance_light url="#Omni72-light"/>
+      </node>
+      <node id="node-Omni73" name="Omni73" layer="Shadows">
+        <translate>-558.6952 652.9609 1654.735</translate>
+        <instance_light url="#Omni73-light"/>
+      </node>
+      <node id="node-Spot01" name="Spot01" layer="Ligths">
+        <matrix>-0.8983203 0.1502459 -0.412852 -3181.204 -0.4393411 -0.3072077 0.8441581 6412.664 0 0.9397072 0.3419802 1724.248 0 0 0 1</matrix>
+        <instance_light url="#Spot01-light"/>
+      </node>
+      <node id="node-Spot01.Target" name="Spot01.Target" layer="Ligths">
+        <translate>-1717.103 3419.018 511.48</translate>
+      </node>
+      <node id="node-Spot02" name="Spot02" layer="Ligths">
+        <matrix>0.9267327 0.0805014 -0.3669961 -5425.429 -0.3757214 0.1985601 -0.9052112 -4742.035 0 0.9767771 0.2142582 2310.767 0 0 0 1</matrix>
+        <instance_light url="#Spot02-light"/>
+      </node>
+      <node id="node-Spot02.Target" name="Spot02.Target" layer="Ligths">
+        <translate>-2343.487 2859.703 511.48</translate>
+      </node>
+      <node id="node-Spot03" name="Spot03" layer="Ligths">
+        <matrix>0.921975 -0.081692 0.3785348 2123.493 0.3872495 0.1944947 -0.9012268 -4756.277 0 0.9774959 0.2109544 2293.598 0 0 0 1</matrix>
+        <instance_light url="#Spot03-light"/>
+      </node>
+      <node id="node-Spot03.Target" name="Spot03.Target" layer="Ligths">
+        <translate>-1075.894 2860.918 510.6054</translate>
+      </node>
+      <node id="node-Spot04" name="Spot04" layer="Ligths">
+        <matrix>0.3984036 0.2025634 -0.8945628 -9883.847 -0.9172102 0.08798638 -0.3885664 -364.5169 0 0.9753084 0.2208473 2344.284 0 0 0 1</matrix>
+        <instance_light url="#Spot04-light"/>
+      </node>
+      <node id="node-Spot04.Target" name="Spot04.Target" layer="Ligths">
+        <translate>-2459.903 2860.181 511.48</translate>
+      </node>
+      <node id="node-Spot05" name="Spot05" layer="Ligths">
+        <matrix>-0.4146964 0.1931963 -0.8892143 -9871.233 -0.9099599 -0.08804541 0.4052421 7331.462 0 0.9772017 0.2123129 2280.953 0 0 0 1</matrix>
+        <instance_light url="#Spot05-light"/>
+      </node>
+      <node id="node-Spot05.Target" name="Spot05.Target" layer="Ligths">
+        <translate>-2460.284 3954.067 511.48</translate>
+      </node>
+      <node id="node-Spot06" name="Spot06" layer="Ligths">
+        <matrix>-0.922188 -0.08405434 0.3774973 2152.026 0.386742 -0.2004279 0.900144 11615.65 0 0.976096 0.2173396 2363.141 0 0 0 1</matrix>
+        <instance_light url="#Spot06-light"/>
+      </node>
+      <node id="node-Spot06.Target" name="Spot06.Target" layer="Ligths">
+        <translate>-1064.126 3946.725 511.48</translate>
+      </node>
+      <node id="node-Spot07" name="Spot07" layer="Ligths">
+        <matrix>0.9241458 -0.165024 0.3445599 -511.269 0.3820399 0.3991894 -0.8334827 544.7281 0 0.9018952 0.4319549 1713.492 0 0 0 1</matrix>
+        <instance_light url="#Spot07-light"/>
+      </node>
+      <node id="node-Spot07.Target" name="Spot07.Target" layer="Ligths">
+        <translate>-1704.331 3430.719 217.8181</translate>
+      </node>
+      <node id="node-Spot08" name="Spot08" layer="Ligths">
+        <matrix>0.2298992 -0.179226 0.9565691 8635.426 0.9732144 0.04233796 -0.2259671 596.666 0 0.9828965 0.1841588 2356.081 0 0 0 1</matrix>
+        <instance_light url="#Spot08-light"/>
+      </node>
+      <node id="node-Spot08.Target" name="Spot08.Target" layer="Ligths">
+        <translate>-945.9146 2860.034 511.48</translate>
+      </node>
+      <node id="node-Spot09" name="Spot09" layer="Ligths">
+        <matrix>-0.4086392 -0.1556772 0.8993212 8641.434 0.912696 -0.06970096 0.4026509 8249.085 0 0.9853458 0.1705685 2332.758 0 0 0 1</matrix>
+        <instance_light url="#Spot09-light"/>
+      </node>
+      <node id="node-Spot09.Target" name="Spot09.Target" layer="Ligths">
+        <translate>-961.2452 3949.701 511.48</translate>
+      </node>
+      <node id="node-Spot10" name="Spot10" layer="Ligths">
+        <matrix>-0.9259225 0.08261541 -0.3685679 -5473.867 -0.3777137 -0.2025223 0.9035026 11628.81 0 0.9757866 0.2187249 2368.565 0 0 0 1</matrix>
+        <instance_light url="#Spot10-light"/>
+      </node>
+      <node id="node-Spot10.Target" name="Spot10.Target" layer="Ligths">
+        <translate>-2344.538 3957.614 511.48</translate>
+      </node>
+      <node id="node-Omni01" name="Omni01" layer="Ligths">
+        <translate>3768.568 -4372.603 190.3782</translate>
+        <instance_light url="#Omni01-light"/>
+      </node>
+      <node id="node-Fspot07" name="Fspot07" layer="Ligths">
+        <translate>7320.742 -2516.015 863.433</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot07-light"/>
+      </node>
+      <node id="node-Fspot08" name="Fspot08" layer="Ligths">
+        <translate>7320.742 -1525.037 863.433</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot07-light"/>
+      </node>
+      <node id="node-Fspot09" name="Fspot09" layer="Ligths">
+        <translate>7320.742 -524.0312 863.433</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot07-light"/>
+      </node>
+      <node id="node-Fspot01" name="Fspot01" layer="Ligths">
+        <translate>6567.583 1449.4 600.1475</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot01-light"/>
+      </node>
+      <node id="node-Fspot02" name="Fspot02" layer="Ligths">
+        <translate>1414.908 10874.21 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot02-light"/>
+      </node>
+      <node id="node-Fspot03" name="Fspot03" layer="Ligths">
+        <translate>3317.309 10874.21 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot02-light"/>
+      </node>
+      <node id="node-Fspot04" name="Fspot04" layer="Ligths">
+        <translate>5216.307 10874.21 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot02-light"/>
+      </node>
+      <node id="node-Fspot05" name="Fspot05" layer="Ligths">
+        <translate>-5234.867 10874.21 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot02-light"/>
+      </node>
+      <node id="node-Fspot06" name="Fspot06" layer="Ligths">
+        <translate>-7134.727 10874.21 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot02-light"/>
+      </node>
+      <node id="node-Fspot11" name="Fspot11" layer="Ligths">
+        <translate>-9166.592 10361.67 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot02-light"/>
+      </node>
+      <node id="node-Fspot12" name="Fspot12" layer="Ligths">
+        <translate>-9166.592 8462.626 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot02-light"/>
+      </node>
+      <node id="node-Fspot13" name="Fspot13" layer="Ligths">
+        <translate>-9166.592 6563.902 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot02-light"/>
+      </node>
+      <node id="node-Fspot14" name="Fspot14" layer="Ligths">
+        <translate>-9166.592 -85.8915 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot02-light"/>
+      </node>
+      <node id="node-Fspot15" name="Fspot15" layer="Ligths">
+        <translate>-9166.592 -1987.907 392.1678</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot02-light"/>
+      </node>
+      <node id="node-Fspot16" name="Fspot16" layer="Ligths">
+        <translate>7068.312 10113.83 600.7292</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot01-light"/>
+      </node>
+      <node id="node-Fspot17" name="Fspot17" layer="Ligths">
+        <translate>7068.312 7309.642 600.7292</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot01-light"/>
+      </node>
+      <node id="node-Fspot18" name="Fspot18" layer="Ligths">
+        <translate>7068.312 4580.086 600.7292</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot01-light"/>
+      </node>
+      <node id="node-Fspot19" name="Fspot19" layer="Ligths">
+        <translate>4664.136 8970.037 746.9526</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot19-light"/>
+      </node>
+      <node id="node-Omni04" name="Omni04" layer="Ligths">
+        <translate>-6415.345 -3994.489 143.8782</translate>
+        <instance_light url="#Omni01-light"/>
+      </node>
+      <node id="node-Spot11" name="Spot11" layer="Ligths">
+        <matrix>0.6789404 0.4626077 -0.5701176 -9697.161 -0.7341934 0.4277934 -0.5272124 8509.155 0 0.7765224 0.6300897 1676.372 0 0 0 1</matrix>
+        <instance_light url="#Spot11-light"/>
+      </node>
+      <node id="node-Spot11.Target" name="Spot11.Target" layer="Ligths">
+        <translate>-8201.654 9892.115 23.54858</translate>
+      </node>
+      <node id="node-Spot13" name="Spot13" layer="Ligths">
+        <matrix>0.008133699 -0.3216085 0.9468378 7755.693 0.9999669 0.002615953 -0.007701548 9539.882 0 0.9468691 0.3216192 1389.527 0 0 0 1</matrix>
+        <instance_light url="#Spot13-light"/>
+      </node>
+      <node id="node-Spot13.Target" name="Spot13.Target" layer="Ligths">
+        <translate>3734.291 9572.592 23.54858</translate>
+      </node>
+      <node id="node-Fspot20" name="Fspot20" layer="Ligths">
+        <translate>-8197.487 -3755.727 -265.7876</translate>
+        <rotate>0.0384617 -0.07079446 0.9967492 -45.25296</rotate>
+        <instance_light url="#Fspot19-light"/>
+      </node>
+      <node id="node-Omni07" name="Omni07" layer="Ligths">
+        <translate>-4261.279 -3994.489 143.8782</translate>
+        <instance_light url="#Omni01-light"/>
+      </node>
+      <node id="node-Spot15" name="Spot15" layer="Ligths">
+        <matrix>-0.7454334 -0.01628906 -0.6663811 -10159.98 0.6403398 -0.2952317 -0.7090862 -5318.787 -0.1851865 -0.9552868 0.2305061 1385.936 0 0 0 1</matrix>
+        <instance_light url="#Spot15-light"/>
+      </node>
+      <node id="node-Spot15.Target" name="Spot15.Target" layer="Ligths">
+        <translate>-5931.999 -819.8525 -76.55457</translate>
+        <rotate>0 0 1 -180</rotate>
+      </node>
+      <node id="node-Spot16.Target" name="Spot16.Target" layer="Ligths">
+        <translate>4523.047 -699.1839 -76.55457</translate>
+        <rotate>0 0 1 -180</rotate>
+      </node>
+      <node id="node-Spot16" name="Spot16" layer="Ligths">
+        <matrix>-0.9816995 0.1904347 8.30798e-4 4526.311 -0.02928156 -0.1466342 -0.9887573 -4583.376 -0.1881719 -0.9706869 0.149527 510.8408 0 0 0 1</matrix>
+        <instance_light url="#Spot16-light"/>
+      </node>
+      <node id="node-Omni01_1" name="Omni01" layer="Ligths">
+        <translate>572.925 -1600.519 -137.8301</translate>
+        <instance_light url="#Omni01_1-light"/>
+      </node>
+      <node id="node-Omni59" name="Omni59" layer="Ligths">
+        <translate>-3976.264 -1600.519 -137.8301</translate>
+        <instance_light url="#Omni01_1-light"/>
+      </node>
+      <node id="node-Omni60" name="Omni60" layer="Ligths">
+        <translate>-6693.505 1123.699 -137.8301</translate>
+        <instance_light url="#Omni01_1-light"/>
+      </node>
+      <node id="node-Omni61" name="Omni61" layer="Ligths">
+        <translate>-6693.505 5674.864 -137.8301</translate>
+        <instance_light url="#Omni01_1-light"/>
+      </node>
+      <node id="node-Omni62" name="Omni62" layer="Ligths">
+        <translate>-4033.793 8395.425 -137.8301</translate>
+        <instance_light url="#Omni01_1-light"/>
+      </node>
+      <node id="node-Omni63" name="Omni63" layer="Ligths">
+        <translate>573.538 8395.425 -137.8301</translate>
+        <instance_light url="#Omni01_1-light"/>
+      </node>
+      <node id="node-Omni64" name="Omni64" layer="Ligths">
+        <translate>3293.99 5676.781 -137.8301</translate>
+        <instance_light url="#Omni01_1-light"/>
+      </node>
+      <node id="node-Omni65" name="Omni65" layer="Ligths">
+        <translate>3293.99 1124.92 -137.8301</translate>
+        <instance_light url="#Omni01_1-light"/>
+      </node>
+      <node id="node-Omni66" name="Omni66" layer="Ligths">
+        <translate>-1695.099 3413.418 332.2488</translate>
+        <instance_light url="#Omni66-light"/>
+      </node>
+      <node id="node-Omni74" name="Omni74" layer="Shadows">
+        <translate>-3152.115 6362.686 1654.735</translate>
+        <instance_light url="#Omni74-light"/>
+      </node>
+      <node id="node-Omni75_s" name="Omni75_s" layer="Shadows">
+        <translate>5734.411 742.163 1654.735</translate>
+        <instance_light url="#Omni75_s-light"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+  <extra>
+    <technique profile="Alternativa3D">
+      <library xmlns="http://alternativaplatform.com/a3d/Library">
+        <version>2.4</version>
+      </library>
+    </technique>
+  </extra>
+</collada>

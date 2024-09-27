@@ -1,0 +1,150 @@
+<config>
+	<map url="data/dxt1/maps/arena-a3d.tara" skybox="Skybox Crash"/>
+
+	<kernelOptions>
+		<!--<option name="fakeMap">true</option>-->
+		<!--<option name="fakelight">true</option>-->
+	</kernelOptions>
+
+	<console-commands>
+		fog_mode 2
+		fog_near 100
+		fog_far 40000
+		fog_density 0.5
+		fog_texture 45:0xffac5a 135:0x786d5d 225:0x00355f 315:0x786d5d
+		horizon_size 30000
+		horizon_offset -5000
+		track_damping 100
+	</console-commands>
+
+	<user>
+		<xyz>414 -1599 1000</xyz>
+		<rotation>0 0 111</rotation>
+		<hull>Wasp M2</hull>
+		<turret>Smoky M2</turret>
+		<coloring>0</coloring>
+	</user>
+	<tanks>
+		<tank>
+			<xyz>-3227 4685 1000</xyz>
+			<rotation>0 0 -147</rotation>
+			<hull>Viking M1</hull>
+			<turret>Firebird M1</turret>
+			<coloring>1</coloring>
+		</tank>
+                 <tank>
+			<xyz>-327 2085 3000</xyz>
+			<rotation>0 0 -147</rotation>
+			<hull>Wasp M2</hull>
+			<turret>Firebird M1</turret>
+			<coloring>1</coloring>
+		</tank>
+		<tank>
+			<xyz>-8192 -3058 1000</xyz>
+			<rotation>0 0 -40</rotation>
+			<hull>Mamont M3</hull>
+			<turret>Thunder M3</turret>
+			<coloring>2</coloring>
+		</tank>
+	         <tank>
+			<xyz>-5327 9685 3000</xyz>
+			<rotation>0 0 -40</rotation>
+			<hull>Viking M1</hull>
+			<turret>Thunder M3</turret>
+			<coloring>2</coloring>
+		</tank>
+	</tanks>
+
+	<colorings baseUrl="data/tanks/colormaps">
+		<image file="flora.jpg"/>
+		<image file="swamp.jpg"/>
+		<image file="winter.jpg"/>
+	</colorings>
+	
+	<sounds baseUrl="data/sound/">
+		<sound id="idle" file="engineidle.mp3"></sound>
+		<sound id="smoky/shot" file="smoky/shot.mp3"></sound>
+		<sound id="thunder/shot" file="thunder/shot.mp3"></sound>
+		<sound id="flamethrower/shot" file="flamethrower/shot.mp3"></sound>
+		<sound id="turret" file="turret.mp3"></sound>
+		<sound id="startmoving" file="startmoving.mp3"></sound>
+		<sound id="endmoving" file="endmoving.mp3"></sound>
+		<sound id="move" file="move.mp3"></sound>
+	</sounds>
+	
+	<blobs>
+		<blobs-category id="skybox">
+			<blobs-group id="Skybox Crash" baseUrl="data/dxt1/skyboxes/arena">
+				<blob id="left" file="left.atf"/>
+				<blob id="front" file="front.atf"/>
+				<blob id="right" file="right.atf"/>
+				<blob id="back" file="back.atf"/>
+				<blob id="top" file="top.atf"/>
+				<blob id="bottom" file="bottom.atf"/>
+			</blobs-group>
+		</blobs-category>
+	</blobs>
+
+	<textures baseUrl="data/dxt1/images/">
+		<texture id="smoky/diffuse" url="smoky/smoky_diffuse.atf"/>
+		<texture id="smoky/opacity" url="smoky/smoky_opacity.atf"/>
+		
+		<texture id="firebird/diffuse" url="firebird/diffuse.atf"/>
+		<texture id="firebird/opacity" url="firebird/opacity.atf"/>
+	</textures>
+
+	<tankParts baseUrl="data/dxt1/tanks">
+		<hull baseUrl="hulls/wasp/m2">
+			<id>Wasp M2</id>
+			<modelFile type="dae">main.dae</modelFile>
+			<texture id="diffuse.atf">diffuse.atf</texture>
+			<texture id="normalmap.atf">normalmap.atf</texture>
+			<texture id="surface.atf">surface.atf</texture>
+			<texture id="tracks_diffuse.atf">tracks_diffuse.atf</texture>
+			<texture id="tracks_normalmap.atf">tracks_normalmap.atf</texture>
+			<texture id="shadow.atf">shadow.atf</texture>
+		</hull>
+		<hull baseUrl="hulls/viking/m1">
+			<id>Viking M1</id>
+			<modelFile type="dae">main.dae</modelFile>
+			<texture id="diffuse.atf">diffuse.atf</texture>
+			<texture id="normalmap.atf">normalmap.atf</texture>
+			<texture id="surface.atf">surface.atf</texture>
+			<texture id="tracks_diffuse.atf">tracks_diffuse.atf</texture>
+			<texture id="tracks_normalmap.atf">tracks_normalmap.atf</texture>
+			<texture id="shadow.atf">shadow.atf</texture>
+		</hull>
+		<hull baseUrl="hulls/mamont/m3">
+			<id>Mamont M3</id>
+			<modelFile type="dae">main.dae</modelFile>
+			<texture id="diffuse.atf">diffuse.atf</texture>
+			<texture id="normalmap.atf">normalmap.atf</texture>
+			<texture id="surface.atf">surface.atf</texture>
+			<texture id="tracks_diffuse.atf">tracks_diffuse.atf</texture>
+			<texture id="tracks_normalmap.atf">tracks_normalmap.atf</texture>
+			<texture id="shadow.atf">shadow.atf</texture>
+		</hull>
+
+		<turret baseUrl="turrets/smoky/m2">
+			<id>Smoky M2</id>
+			<modelFile type="a3d">turret.a3d</modelFile>
+			<texture id="diffuse.atf">diffuse.atf</texture>
+			<texture id="normalmap.atf">normalmap.atf</texture>
+			<texture id="surface.atf">surface.atf</texture>
+		</turret>
+		<turret baseUrl="turrets/thunder/m3">
+			<id>Thunder M3</id>
+			<modelFile type="a3d">turret.a3d</modelFile>
+			<texture id="diffuse.atf">diffuse.atf</texture>
+			<texture id="normalmap.atf">normalmap.atf</texture>
+			<texture id="surface.atf">surface.atf</texture>
+		</turret>
+		<turret baseUrl="turrets/firebird/m1">
+			<id>Firebird M1</id>
+			<modelFile type="a3d">turret.a3d</modelFile>
+			<texture id="diffuse.atf">diffuse.atf</texture>
+			<texture id="normalmap.atf">normalmap.atf</texture>
+			<texture id="surface.atf">surface.atf</texture>
+		</turret>
+	</tankParts>
+</config>
