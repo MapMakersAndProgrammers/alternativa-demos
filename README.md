@@ -21,8 +21,8 @@ This repository is a collection of demos built using the [Alternativa3D engine](
 |ParticlesDemo  |Working    |
 |SSAODemo       |Working    |
 |maxracer       |Partial    |Only the low preset works, medium and high have basically no resources
-|arena          |Working    |
-|crash          |Working    |
+|Tanki2.0/arena |Working    |Tanki Online 2.0 arena, v2 and v3
+|Tanki2.0/crash |Working    |Tanki Online 2.0 crash, v2 and v3
 |gui            |Working    |
 |metro2033      |Not working|Doesn't load, all resources missing
 |shadowdemo     |Working    |
