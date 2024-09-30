@@ -32,24 +32,10 @@
 			<turret>Firebird M1</turret>
 			<coloring>1</coloring>
 		</tank>
-                 <tank>
-			<xyz>-327 2085 3000</xyz>
-			<rotation>0 0 -147</rotation>
-			<hull>Wasp M2</hull>
-			<turret>Firebird M1</turret>
-			<coloring>1</coloring>
-		</tank>
 		<tank>
 			<xyz>-8192 -3058 1000</xyz>
 			<rotation>0 0 -40</rotation>
 			<hull>Mamont M3</hull>
-			<turret>Thunder M3</turret>
-			<coloring>2</coloring>
-		</tank>
-	         <tank>
-			<xyz>-5327 9685 3000</xyz>
-			<rotation>0 0 -40</rotation>
-			<hull>Viking M1</hull>
 			<turret>Thunder M3</turret>
 			<coloring>2</coloring>
 		</tank>
