@@ -13,6 +13,7 @@ This repository is a collection of demos built using the [Alternativa3D engine](
 |bunker         |Working    |
 |elka           |Working    |
 |engine         |Working    |
+|factory        |Working    |
 |flat           |Working    |
 |mobilephone    |Working    |
 |strategy       |Working    |
