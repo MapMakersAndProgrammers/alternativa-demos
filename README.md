@@ -19,7 +19,7 @@ This repository is a collection of demos built using the [Alternativa3D engine](
 |strategy       |Working    |
 |temple         |Working    |
 |mipmapping     |Working    |
-|ParticlesDemo  |Working    |
+|particlesdemo  |Working    |
 |SSAODemo       |Working    |
 |maxracer       |Partial    |Only the low preset works, medium and high have basically no resources
 |Tanki2.0/arena |Working    |Tanki Online 2.0 arena, v2 and v3
